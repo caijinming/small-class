@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+p {
+    color: red;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+    margin: 0px 20px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 15%;
+    margin-right: 0.5%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+}
+
+a:link, a:visited, a:focus {
+    background: yellow;
+}
+
+a:hover {
+    background: orange;
+}
+
+a:active {
+    background: red;
+}
+
+li:first-child > a {
+    background: url("../../images/favorite-1_th.jpg") no-repeat 30px 13px;
+    background-size: 20px 20px;
+}
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
+    这个依赖待研究，有问题-->
+    <context:component-scan base-package="org.example.ioc"/>
+    <bean id="ca" class="org.example.ioc.CleanAir">
+        <qualifier value="cleanAir"/>
+    </bean>
+    <bean id="da" class="org.example.ioc.DirtyAir">
+        <qualifier value="dirtyAir"/>
+    </bean>
+    <bean id="ps" class="org.example.ioc.Person"/>
+
+
+</beans>

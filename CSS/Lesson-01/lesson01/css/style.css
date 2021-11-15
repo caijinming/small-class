@@ -1,0 +1,20 @@
+h1 {
+    background-color: #ffb6ae;
+}
+
+.active~p {
+    background-color: #ffb6ae;
+}
+
+ul li:first-child {
+    background-color: #ffb6ae;
+}
+ul li:last-child {
+    background-color: aquamarine;
+}
+/*找到所有当前元素的兄弟元素, 然后按照位置选中*/
+p:nth-child(2) {
+    background-color: bisque;
+}
+
+

@@ -1,0 +1,9 @@
+
+.bgOne {
+    background-image: url("../../images/favorite-1.jpg");
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 100px;
+    background-position: top;
+    background-attachment: scroll;
+}

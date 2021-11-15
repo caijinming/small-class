@@ -1,0 +1,62 @@
+body {
+    color: #C1437A;
+}
+
+/*
+控制继承inherit， initial， unset
+.my-class-one a {
+    color: inherit;
+}
+.my-class-two a {
+    color: initial;
+}
+.my-class-third a {
+    color: unset;
+}*/
+
+/* display: block 练习
+p,
+ul {
+    border: 2px solid darkseagreen;
+    padding: .5em;
+}
+
+.layout,
+li {
+    border: 2px solid blueviolet;
+    padding: 0.5em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.layout {
+    display: block;
+}
+*/
+
+/*
+display: inline; inline-flex; flex
+**/
+p,
+ul {
+    border: 2px solid rebeccapurple;
+}
+
+span,
+li {
+    border: 2px solid olivedrab;
+}
+
+ul {
+    display: inline;
+    list-style: none;
+    padding: 0;
+}
+
+.layout {
+    display: inline-flex;
+}
+

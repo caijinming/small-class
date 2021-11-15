@@ -1,0 +1,90 @@
+html {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    /**
+    1. display 被设置为flex，对应属性的默认值为 flex-direction: row; align-items: stretch;
+    2. 除了上述被应用到flex容器的属性外，还有很多属性被用于flex项上面。 如:flex: 1
+    */
+    display: flex;
+    background-color: #DCC48E;
+}
+
+.layoutGrid {
+    display: grid;
+    background-color: #C1437A;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+}
+
+.grid1 {
+    grid-column: 2/4;
+    grid-row: 1;
+    background-color: rebeccapurple;
+}
+
+.wrapper > div {
+    flex: 1;
+    padding: 4px;
+    border: 2px solid rebeccapurple;
+}
+
+.layoutFloat {
+    float: left;
+    width: 150px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.location {
+    background-color: #FF9500;
+    border: 2px solid brown;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.positioned {
+    position: sticky;
+    top: 30px;
+    left: 30px;
+}
+
+form {
+    display: table;
+    margin: 0 auto;
+}
+
+form div {
+    display: table-row;
+}
+
+form input {
+    display: table-cell;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+form p {
+    display: table-caption;
+    caption-side: bottom;
+    width: 300px;
+    color: #C1437A;
+    font-family: "Noto Sans Old Italic";
+}
+
+.container {
+    column-width: 200px;
+    /*column-count: 3;*/
+}
+
+
+
+
+
+
+
+
+

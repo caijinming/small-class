@@ -1,0 +1,15 @@
+
+/* 水平找寻参照物实现居中 */
+img, span {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 超链接的伪类 */
+a:hover {
+    color: #3afff5;
+}
+

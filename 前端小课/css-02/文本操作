@@ -1,0 +1,32 @@
+字体大小
+px: 将像素的值赋予给你的文本。 是一个绝对单位，它导致在任何情况下，页面文本计算的值都是一样。
+em: 1em 等于我们设计的当前元素的父元素上设置的字体大小。
+rem: 这个单位的效果和 em 差不多，除了 1rem 等于 HTML 中的根元素的字体大小， (i.e. <html>) ，而不是父元素.
+rem 不支持 Internet Explorer 8 和以下的版本.
+
+font-size 根元素(html)的默认值为16px, h1的默认值为（2em）32px。
+font-style 字体样式。 normal, italic, oblique（将普通文本倾斜的样式应用到文本中）
+font-weight 字体粗细. normal， bold，light
+
+text-transform: 允许你设置要转换的字体。none, uppercase, lowercase, capitalize
+text-decoration: 文本装饰。 none, underline, overline, line-through（穿过文本线）
+text-shadow: 设置阴影 （水平偏移，垂直偏移，模糊半径，阴影颜色）
+text-align: 文本对齐。 left， right，center， justify（文本展开，改变单词间距）
+
+line-height: 行高。
+几种类型
+normal 取决于用户端。 默认约1.2, 这取决于元素的font-family
+数字： 值乘以元素的字体大小。推荐此种方法。
+其他长度，百分比暂时不管了。
+
+letter-spacing 设置文本中的字母与字母之间的间距。
+word-spacing 设置文本中单词与单词的间距。
+
+列表特定样式
+list-style-type 列表的项目符号的类型。 如方形或圆形，有序，字母。
+list-style-position 项目符号出现在列表内，还是外。
+list-style-image 项目符号使用自定义图片。
+可代替为 list-type : square url(...) inside
+
+字体
+

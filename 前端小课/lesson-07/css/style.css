@@ -1,0 +1,22 @@
+
+.box {
+    background-color: #C1437A;
+}
+
+h2 {
+    background-color: palegreen;
+    color: wheat;
+}
+
+span {
+    background-color: white;
+}
+
+.a {
+    background-color: #00539F;
+}
+
+.b {
+    background-image: url("../images/a.png");
+    background-size: 100px 2em
+}

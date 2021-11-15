@@ -1,0 +1,12 @@
+.tableOne {
+    background-color: #DCC48E;
+    border: 2px solid red;
+}
+
+.oneCell {
+    border-left: 2px solid cornflowerblue;
+}
+
+.footerItem {
+    background-color: #FF9500;
+}

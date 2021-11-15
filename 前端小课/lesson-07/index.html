@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--
+    背景色
+    -->
+    <div class="box">
+        <h2>Background Colors</h2>
+        <p>试图去修改背景色 <span>colors</span> </p>
+    </div>
+    <!--
+    背景图片
+    background-image: 默认情况下，大图不会缩小适应方框，因此看到部分其他被裁剪了；而小图则是平铺以填充方框。
+    background-repeat: 用来控制图像的平铺行为。 值有：no-repeat 不重复；repeat-x 水平重复；repeat-y 垂直重复
+    repeat 二个方向重复。
+
+    background-size: 调整背景图片的大小适应背景。可以设置长度或百分比值。可以用关键字。
+    cover 图像足够大，有可能跳出盒子外。 contain 将图像的大小适应在盒子内。 此种情况，图像的长宽比与盒子的长宽比不同。
+    则可能在图像的任何一边或顶部和底部出现间隙.
+
+    background-position 背景图像在盒子中的位置。
+    -->
+    <div>
+        <div class="box a">图片</div>
+        <div class="box b">喝酒</div>
+    </div>
+    <!--
+       书写模式： 指文本的排列方向是横向还是纵向的
+       writing-mode 三个值是:
+            horizontal-tb: 块流向从上至下。对应的文本方向是横向的.
+            vertical-rl: 块流向从右向左。对应的文本方向是纵向的.
+            vertical-lr: 块流向从左向右。对应的文本方向是纵向的.
+    -->
+    <h1 style="writing-mode: lr"></h1>
+
+
+</body>
+</html>
